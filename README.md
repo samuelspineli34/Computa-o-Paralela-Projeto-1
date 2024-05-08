@@ -54,4 +54,5 @@ Com OpenMP e MPI
 4 processos 0 threads : 3.7032 segundos
 8 processos 0 threads : 14.1557 segundos
 
-# Link Github: https://github.com/samuelspineli34/Computa-o-Paralela-Projeto-1/
+# Link Github
+ https://github.com/samuelspineli34/Computa-o-Paralela-Projeto-1/
