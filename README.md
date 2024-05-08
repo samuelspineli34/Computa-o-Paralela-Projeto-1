@@ -1,7 +1,7 @@
 # Comparação de otimização do K-means para a classificação de regiões de acordo com a taxa de poluição utilizando OpenMP e MPI
-Integrantes: Rafael Ferreira Garcia Almeida, \
-             Samuel Spineli Rodrigues, \
-             Lucas Fiori Magalhaes Machado
+Integrantes: Lucas Fiori Magalhaes Machado\
+             Rafael Ferreira Garcia Almeida\
+             Samuel Spineli Rodrigues
 # ⚙️ Como executar
 Para compilar o programa no Parcode é necessário utilizar o comando mpic++ -std=c++11 -o polutionkmeans pollutionkmeans.cpp -fopenmp, observe que é necessário utilizar a clausula de comando -std=c++11, pois o compilador do Parcode está em uma versão desatualizada de 2011, o -fopenmp é para a utilização do openmp enquanto o mpic++ é para a utilização do MPI.\
 Para executar o programa é necessário usar o comando  mpiexec -n 2 ./pollutionkmeans, onde o número é a quantidade de processos a serem executados.
