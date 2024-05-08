@@ -4,6 +4,7 @@ Integrantes: Lucas Fiori Magalhaes Machado\
              Samuel Spineli Rodrigues
 # ⚙️ Como executar
 Para compilar o programa no Parcode é necessário utilizar o comando mpic++ -std=c++11 -o polutionkmeans pollutionkmeans.cpp -fopenmp, observe que é necessário utilizar a clausula de comando -std=c++11, pois o compilador do Parcode está em uma versão desatualizada de 2011, o -fopenmp é para a utilização do openmp enquanto o mpic++ é para a utilização do MPI.\
+Para compilar a versão somente com o openMP a linha de comando é a seguinte g++ -std=c++11 -o polutionkmeansopenmp pollutionkmeansopenmp.cpp -fopenmp.\
 Para executar o programa é necessário usar o comando  mpiexec -n 2 ./pollutionkmeans, onde o número é a quantidade de processos a serem executados.
 
 # Como funciona
