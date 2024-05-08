@@ -1,5 +1,5 @@
 # Comparação de otimização do K-means para a classificação de regiões de acordo com a taxa de poluição utilizando OpenMP e MPI
-Integrantes:\ Lucas Fiori Magalhaes Machado\
+Integrantes: Lucas Fiori Magalhaes Machado\
              Rafael Ferreira Garcia Almeida\
              Samuel Spineli Rodrigues
 # ⚙️ Como executar
