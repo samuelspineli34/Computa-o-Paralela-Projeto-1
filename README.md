@@ -1,4 +1,4 @@
-# Computacao-Paralela-Projeto-1
+# Comparação de otimização do K-means para a classificação de regiões de acordo com a taxa de poluição utilizando OpenMP e MPI
 Integrantes: Rafael Ferreira Garcia Almeida, \
              Samuel Spineli Rodrigues, \
              Lucas Fiori Magalhaes Machado
