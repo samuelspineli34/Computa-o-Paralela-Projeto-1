@@ -1,8 +1,9 @@
 /*
-Alunos: Rafael Ferreira Garcia Almeida, Samuel Snpinelli Rodrigues, Lucas Fiori Magalhaes Machado
+Alunos: Rafael Ferreira Garcia Almeida, Samuel Spineli Rodrigues, Lucas Fiori Magalhaes Machado
+
+Tempo Sequencial : 34.4797 segundos
 
 Apenas com o OpenMP:
-Tempo Sequencia : 34.4797 segundos
 Tempo Paralelo 1 thread : 50.4282 segundos
 Tempo Paralelo 2 threads : 18.4068 segundos
 Tempo Paralelo 4 threads : 10.5695 segundos
