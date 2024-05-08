@@ -34,25 +34,25 @@ updateCentroids: Distribuí os clusters para cada thread disponível, calcula a 
 kmeans: Função principal para executar o algoritmo, o MPI é utilizado aqui afim de distribuir os dados de um centroíde para diferentes processos. Após os centróides terem seus dados atualizados, é realizado o broadcast dos processos para que esse novo valor seja recebido para todos os processos.
 
 # Desempenho alcançado
-Tempo Sequencial : 12.8893 segundos\
+Tempo Sequencial : 12.8893 segundos
 
 Apenas com o OpenMP:\
 Tempo Paralelo 1 thread : 12.8899 segundos\
 Tempo Paralelo 2 threads : 7.34364 segundos\
 Tempo Paralelo 4 threads : 4.54277 segundos\
-Tempo Paralelo 8 threads : 5.30841 segundos\
+Tempo Paralelo 8 threads : 5.30841 segundos
 
 Apenas com MPI\
 1 processo: 12.7478 segundos\
 2 processos: 6.6243 segundos\
 4 processos: 3.7032 segundos\
-8 processos: 14.1557 segundos\
+8 processos: 14.1557 segundos
 
 Com OpenMP e MPI\
 1 processo 4 threads : 9.8449 segundos\
 2 processos 2 threads : 3.6188 segundos\
 4 processos 0 threads : 3.7032 segundos\
-8 processos 0 threads : 14.1557 segundos\
+8 processos 0 threads : 14.1557 segundos
 
 # Link Github
  https://github.com/samuelspineli34/Computa-o-Paralela-Projeto-1/
