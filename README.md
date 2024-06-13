@@ -23,14 +23,14 @@ kmeans: Função principal para executar o algoritmo, o MPI é utilizado aqui af
 # Desempenho alcançado
 Tempo Sequencial : 15 minutos (O código não terminou de executar no parcode e após 15 minutos a sessão é encerrada)
 
-OpenMP (CPU): 3 minutos e 50 segundos\
-Speedup: 3,91\
+OpenMP (CPU): 3 minutos e 50 segundos
+Speedup: 3,91
 
 OpenMP (GPU): 3 minutos e 30 segundos
-Speedup: 4,28\
+Speedup: 4,28
 
-CUDA: \
-Speedup: \
+CUDA: 
+Speedup: 
 
 
 # Link Github
